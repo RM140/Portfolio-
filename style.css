@@ -291,3 +291,15 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+.education-item {
+    background: #f0f4f8;
+    padding: 15px;
+    border-left: 4px solid #0a3d62;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.education-item:hover {
+    background: #e8f1f8;
+    transform: translateX(5px);
+}
